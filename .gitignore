@@ -1,6 +1,9 @@
 test_data/dda
-test_data/ProteomeKindom
+test_data/ProteomeKindom*
 test_data/phos
+test_data/small_fasta/*.hdf
+test_data/small_fasta/*.tsv
+test_data/small_fasta/predict*
 test_data/speclib
 **/.DS_Store
 
