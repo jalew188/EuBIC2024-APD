@@ -1,5 +1,7 @@
 test_data/dda
 test_data/ProteomeKindom
+test_data/phos
+test_data/speclib
 **/.DS_Store
 
 # Byte-compiled / optimized / DLL files
