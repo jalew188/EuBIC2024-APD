@@ -8,7 +8,7 @@ AlphaPeptDeep notebooks for EuBIC-2024 Winterschool
 * Pandas
 * VSCode
 
-PyTorch experience is not necessary.
+PyTorch experience is not necessary, but audiences need to know a bit about deep learning or machine learning.
 
 ## Preparation
 
