@@ -18,9 +18,22 @@ PyTorch experience is not necessary, but audiences need to know a bit about deep
 
 * Install VSCode extensions: `Python` and `Jupyter`.
 
-* In VSCode, open `Terminal -> New Terminal` to start a conda terminal (or start an anaconda prompt) then run `conda create -n eubic2024 python=3.10`.
+* In VSCode, open `Terminal -> New Terminal` to start a conda terminal (or start an anaconda prompt) then run:
+```
+conda create -n apd python=3.10
+conda activate apd
+```
 
-* Install required Python packages, run `notebooks/0.pip_install.ipynb`, select `eubic2024` as the python interpreter.
+* Install required packages in the `apd` terminal environment, run:
+```
+pip install -U peptdeep plotly alphatims alpharaw
+# If you have GPU:
+#pip install -U torch --index-url https://download.pytorch.org/whl/cu118
+```
+
+Due to the possible internet issue, we may be not able to install packages during the conference. ~~Install required Python packages, run `notebooks/0.pip_install.ipynb`, select `eubic2024` as the python interpreter.~~
+
+* Download this repository via `git clone https://github.com/jalew188/EuBIC2024-APD`. Or download the zip file at https://github.com/jalew188/EuBIC2024-APD: Click `Code` -> `Download zip`.
 
 * Download required data from https://datashare.biochem.mpg.de/s/PQl8nyqfHVZZHte into the `test_data` folder. It contains:
   * `dda` folder with files: `HeLa_500ng.raw`, `HeLa_500ng.raw.hdf`, `MaxQuant_msms.txt`, and `pFind-Filtered.spectra`.
