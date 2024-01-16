@@ -20,7 +20,7 @@ PyTorch experience is not necessary, but audiences need to know a bit about deep
 
 * In VSCode, open `Terminal -> New Terminal` to start a conda terminal (or start an anaconda prompt) then run:
 ```
-conda create -n apd python=3.10
+conda create -n apd python=3.10 # or use your own conda env
 conda activate apd
 ```
 
@@ -30,6 +30,8 @@ pip install -U peptdeep plotly alphatims alpharaw
 # If you have GPU:
 #pip install -U torch --index-url https://download.pytorch.org/whl/cu118
 ```
+
+* Run `peptdeep gui` to automatically download pretrained models and make sure everything works well.
 
 Due to the possible internet issue, we may be not able to install packages during the conference. ~~Install required Python packages, run `notebooks/0.pip_install.ipynb`, select `eubic2024` as the python interpreter.~~
 
