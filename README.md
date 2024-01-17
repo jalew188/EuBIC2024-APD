@@ -49,3 +49,21 @@ Due to the possible internet issue, we may be not able to install packages durin
 
 
 ## If participants have their own data or properties to train and predict, we will also help.
+
+## AlphaX is Open-source:
+
+https://github.com/MannLabs/alphapeptdeep
+
+https://github.com/MannLabs/alphabase
+
+https://github.com/MannLabs/alpharaw
+
+https://github.com/MannLabs/alphatims
+
+https://github.com/MannLabs/alphaviz
+
+https://github.com/MannLabs/alphapept
+
+https://github.com/MannLabs/alphadia (public soon)
+
+... and so many others
